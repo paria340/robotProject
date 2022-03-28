@@ -1,0 +1,108 @@
+
+$charcoal :#5f6062;
+$grey: #bcbec0;
+$light-grey: #d6d5d3;
+
+.wrapper{
+    width: 60%;
+    margin: 5rem auto 0 auto;
+    border: #bcbec0 1px solid;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+html{
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    background-color: $light-grey;
+}
+
+ul,
+li,
+h1,
+h2,
+p{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+ul{
+    overflow-y: scroll;
+    height: 600px;
+}
+
+li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid $grey;
+    margin: 1rem 0 1rem 0;
+    position: relative;
+}
+
+.container{
+    display: flex;
+    
+}
+
+p{
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.grades{
+    margin-top: 1rem;
+    position: relative;
+}
+
+.grades li{
+    border-bottom: none;
+    margin: 0.3rem 0 0.3rem 0;
+}
+
+img{
+    border-radius: 50%;
+    border: 1px solid $grey;
+    align-self: flex-start;
+    width: 120px;
+    height: 120px;
+    margin-right: 4rem;
+    margin: 0 4rem 0 1rem;
+}
+
+.info{
+    padding-left: 1rem;
+}
+
+input{
+    padding: 1rem;
+    border: none;
+    border-bottom: 1px solid $grey;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.innerContainer
+input{
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 1px solid $grey;
+    width: 150px;
+    margin-bottom: 2rem;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    width: 20px;
+    height: 10px;
+    margin-right: 4rem;
+}
